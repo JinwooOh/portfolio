@@ -20,12 +20,12 @@ $message = strip_tags(htmlspecialchars($_POST['Message']));
 // Create the email and send the message
 $to = 'ozi0414@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from example... contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message\n\n\nAs i promised, this is a working contact form  made by csandreas1. If you need any help email me at webdominar1@gmail.com and i would be glad to help. You can support me by subscribing and sharing the video. Any donations are highly accepted, this will help me to continue making helpful videos! https://www.paypal.me/csandreas1 ";
-$headers = "From: noreply@tsigaradiko.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$email_body = "You have received a new message jinwoo-oh.com\n\n"."Name: $name\n\nEmail: $email_address\n\nMessage:\n$message\n\n";
+$headers = "From: noreply@jinwoo-oh.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
 /*
 $headers = "Content-Type: text/html; charset=UTF-8"; //Do you see "chinese" in your email? Add this if your language is  supported by the Unicode Standard. Also make sure to replace any php \n with <br> Find if your language is supported at: http://www.unicode.org/standard/supported.html
 */
 
-if(mail($to,$email_subject,$email_body,$headers)){ echo "Mail sent!";} else{ echo "Error, check your logs."; }
+if(mail($to,$email_subject,$email_body,$headers)){ echo "Will reach out to you shortly. Thank you.";} else{ echo "Error, check your logs."; }
 return true;
