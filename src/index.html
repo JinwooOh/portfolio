@@ -9,12 +9,14 @@
       href="https://fonts.googleapis.com/css?family=Roboto">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
+    <!--mailing -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-    <!--/.charts -->
+    <!--charts -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/highcharts-more.js"></script>
@@ -73,7 +75,7 @@
 
                     <p>Hello, my name is Jinwoo.
 I'm a third year student at University of Wisconson Madison studying computer science.
-I also have experience of working in the game industry for three years as a game designer and a producer.
+I have experience of working in the game industry for three years as a game designer and a producer.
 
 Striving of creating my own program makes me become a programmer and a university student again.</p><p>I am currently focusing on learning web development along with studying computer science courses from the school. </p>
                 </div>
@@ -202,29 +204,32 @@ Striving of creating my own program makes me become a programmer and a universit
     <section id="projects">
       <div class="container">
         <p>Check Out My Projects
-        <a target="_blank"  href="https://github.com/JinwooOh/Projects">Link to GitHub</a></p>
+        <a target="_blank"  href="https://github.com/JinwooOh/">Link to GitHub</a></p>
       </div>
     </section>
+
 
     <section id="contact">
       <div class="container">
         <div class="col-md-5 col-sm-5">
-          <form>
+
+          <form id="form">
             <h3>Contact Jinwoo</h3>
             <div class="form-group">
               <label>Name: </label>
-              <input class="form-control" type="text" name="" value="" placeholder="Enter Name">
+              <input class="form-control" type="text" name="name" value="" placeholder="Enter Name" id="name" required>
             </div>
             <div class="form-group">
               <label>Email: </label>
-              <input class="form-control" type="text" name="" value="" placeholder="Enter Email">
+              <input class="form-control" type="text" name="email" value="" placeholder="Enter Email" id="email" required>
             </div>
             <div class="form-group">
               <label>Message: </label>
-              <textarea class="form-control" name="" value="" placeholder="Enter Message"></textarea>
+              <textarea class="form-control" name="message" value="" placeholder="Enter Message" id="message" required></textarea>
             </div>
-            <button type="button" class="btn btn-default">Send</button>
-          </form>
+            <input id="submit" type="submit" value="Send message">
+
+
         </div>
         <div class="col-md-7 col-sm-7">
         </div>
@@ -240,7 +245,7 @@ Striving of creating my own program makes me become a programmer and a universit
 
     </ul>
 </div>
-      <p class="text-center">Jinwoo Copyright &copy; 2017</p>
+      <p class="text-center">&copy;Jinwoo 2017</p>
     </footer>
       <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -301,5 +306,7 @@ Striving of creating my own program makes me become a programmer and a universit
           });
         });
         </script>
+        <!--mailing -->
+        <script src="myjs.js"></script>
   </body>
 </html>
