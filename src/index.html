@@ -67,17 +67,17 @@
                 <h3>Email:</h3><p>ozi0414@gmail.com</p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                <h3>Phone:</h3><p>(206)-422-6709</p>
+
                 </div>
               </div>
                <div class="col-lg-12 col-md-12">
                 <div class="my-story">
 
-                    <p>Hello, my name is Jinwoo.
-I'm a third year student at University of Wisconson Madison studying computer science.
+                    <p>Hi, my name is Jinwoo.
+I'm a third-year student at the University of Wisconson Madison studying computer science. I am passionate about programming and am interested in web development.
 I have experience of working in the game industry for three years as a game designer and a producer.
-
-Striving of creating my own program makes me become a programmer and a university student again.</p><p>I am currently focusing on learning web development along with studying computer science courses from the school. </p>
+Striving of creating my own program makes me become a programmer and a university student again.</p><p>I am currently focusing on learning web development along with studying computer science courses from the school.</p>
+<p>In my free time, I like to ride a bicycle that takes me anywhere. Recently, I finished bike tour from Madison to Minneapolis. </p>
                 </div>
               </div>
             </div>
@@ -86,19 +86,22 @@ Striving of creating my own program makes me become a programmer and a universit
         </div>
       </div>
     </section>
-
+    <hr>
     <section id="info1">
       <div class="container">
         <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h2>My Skill</h2>
+          </div>
           <div class="col-md-6 col-sm-6">
               <div class="info-left">
-                <h2>My Skill</h2>
                 <script src="skill.js"></script>
               </div>
-              <div id="container" style="min-width: 340px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+              <div id="container" style="min-width: 340px; max-width: 500px; height: 300px; margin: 0 auto"></div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="info-right">
+
               <p>My skill description</p>
             </div>
           </div>
@@ -118,14 +121,15 @@ Striving of creating my own program makes me become a programmer and a universit
               <div class="info-left">
                 <i class="fa fa-laptop fa-lg" aria-hidden="true"></i>
                 <h3>Software Development</h3>
-                <p>test paragraph software</p>
+
+                <p><br>I started learning a programming language by making programs and projects that either come from my needs or schools. The majority of my work has been in Java and I am familiar with OOP and other few languages.</p>
               </div>
             </div>
             <div class="col-md-6 col-sm-6">
                 <div class="info-right">
                   <i class="fa fa-paint-brush fa-lg" aria-hidden="true"></i>
                   <h3>Front End Development</h3>
-                  <p>test paragraph front end</p>
+                  <p><br>I found that I enjoy Front end development that I can combine beautiful designs and functional codes. I can do CSS/HTML and JavaScript and I am still learning other related languages and frameworks to enhance my skills.</p>
                 </div>
             </div>
           </div>
@@ -145,13 +149,25 @@ Striving of creating my own program makes me become a programmer and a universit
           <div class="col-md-6 col-sm-6">
             <div class="info-left">
               <h3>Softzen</h3>
-              <p>Softzen Mobile Game Designer / Producer </p>
+              <p>2011 Dec to 2013 Dec</p>
+              <p><br>Role: Mobile Game Designer / Producer </p>
+              <ul>
+                <li>Communicated between artists and programmers</li>
+                <li>Refined the idea and documented for artists and programmers</li>
+                <li>Adviced and applied IAP model</li>
+              </ul>
+
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
               <div class="info-right">
                 <h3>Com2Us</h3>
-                <p>Com2Us Mobile Game QA Tester</p>
+                <p>2009 Apr to 2009 Sep</p>
+                <p><br>Role: Mobile Game QA Tester</p>
+                <ul>
+                  <li>Tested iOS games and reported issues to developers</li>
+
+                </ul>
               </div>
           </div>
         </div>
@@ -172,7 +188,7 @@ Striving of creating my own program makes me become a programmer and a universit
               <i class="fa fa-university fa-lg" aria-hidden="true"></i>
               <h3>Education</h3>
 
-              <p>University of Wisconsin-Madison Computer Science</p>
+              <p><br>University of Wisconsin-Madison Computer Science</p>
               <p>North Seattle College Associate of Science</p>
               <p>Chungkang College of Cultural Industries Computer Game</p>
             </div>
@@ -186,12 +202,15 @@ Striving of creating my own program makes me become a programmer and a universit
           </div>
           <div class="info-right">
             <div class="col-md-3 col-sm-3">
-                <p>Artificial Intelligent<br>
+                <p><br>Artificial Intelligent<br>
                 Bioinformatic<br>
-                Linear Algebra</p>
+                Linear Algebra<br>
+                CSS,HTML,JavaScript<a target="_blank" href="https://www.codeschool.com">(CodeSchool)</a>
+              </p>
+
             </div>
             <div class="col-md-3 col-sm-3">
-                <p>Data Structures<br>
+                <p><br>Data Structures<br>
                 Algorithms<br>
                 Discrete Mathematics</p>
             </div>
@@ -233,7 +252,7 @@ Striving of creating my own program makes me become a programmer and a universit
             <div class="form-group">
               <label>Email: </label>
               <input class="form-control" type="text" name="email" value="" placeholder="Enter Email" id="email" required
-              oninvalid="this.setCustomValidity('How can I reach out to you without email??')"
+              oninvalid="this.setCustomValidity('What is your email address?')"
               onchange="this.setCustomValidity('')" type="text" />
             </div>
             <div class="form-group">
@@ -305,7 +324,7 @@ Striving of creating my own program makes me become a programmer and a universit
         </script>
 
         <script>
-        //collapse navbar after click the menu
+        //collapse navbar after clicking the menu
         $(document).ready(function () {
         $(".navbar-nav li a").click(function(event) {
             $(".navbar-collapse").collapse('hide');
