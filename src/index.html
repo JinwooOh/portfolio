@@ -205,7 +205,7 @@ Striving of creating my own program makes me become a programmer and a universit
       <div class="container">
         <p>Check Out My Projects
         <a target="_blank"  href="https://github.com/JinwooOh/">
-          <button class="button" type="button" data-hover="CLICK ME"><span>Link to GitHub
+          <button class="button" type="button" data-hover="Click Me"><span>Link to GitHub
             <i class="fa fa-github fa-lg" aria-hidden="true"></i>
           </span></button>
         </a></p>
@@ -305,8 +305,15 @@ Striving of creating my own program makes me become a programmer and a universit
         </script>
 
         <script>
-        $(function() {
+        //collapse navbar after click the menu
+        $(document).ready(function () {
+        $(".navbar-nav li a").click(function(event) {
+            $(".navbar-collapse").collapse('hide');
+            });
+        });
           // Smooth Scrolling
+        $(function() {
+
           $('a[href*="#"]:not([href="#"])').click(function() {
             if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
               var target = $(this.hash);
