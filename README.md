@@ -4,5 +4,5 @@ It is my first project for web development.
 
 The website is live now: jinwoo-oh.com
 
-In the future, I might add another project page that I can upload some my works. 
+In the future, I might add another project page that I can upload some of my works. 
 
