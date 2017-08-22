@@ -49,13 +49,6 @@ p{
   margin-top: 70px;
 }
 
-#info1 .info-left {
-
-}
-#info1 .info-right{
-
-}
-
 #info1 h2{
 
   margin-bottom: 20px;
@@ -214,7 +207,7 @@ a, a:hover {
     position: absolute;
     top: 0.67em;
     left: 0;
-    width: 100%;
+
     text-align: center;
     opacity: 0;
     -webkit-transition: .4s,opacity .6s;
